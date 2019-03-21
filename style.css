@@ -1,0 +1,64 @@
+
+
+.top{
+    overflow: hidden;
+    background-color:white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 1;
+    width: 70.5em;
+    
+}
+@media only screen and (max-width: 720px) {
+    .space{
+        margin:1em auto;
+       
+    }
+      
+}
+ 
+@media only screen and (max-width: 720px) {
+    .top{
+      width: 100vw;   
+   }
+}
+
+
+.space{
+    margin:5em auto;
+}
+
+.intro-large{
+    font-size: 30px;
+    line-height: 36px;
+    color: #969696;
+    margin-top: 3em;
+    margin-left: 4em;
+    
+}
+
+.intro-small p{
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 17px;
+    font-family: GTWalsheim,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 24px;
+    color: #252525;
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+.pageFooter{
+   
+    height: 80px;
+    background-color: #FDF9EF;
+    
+}
+@media only screen and (max-width: 720px) {
+    .pageFooter{
+        width: 100%;
+        height: 230px;
+    }
+      
+}
+
